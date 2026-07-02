@@ -1,296 +1,273 @@
 <!--1. document type declaration (version of html) -->
-
 <!doctype html>
-
 <!--2. the root element -->
-
 <html lang="en">
-
 <!--3. head -->
-
+ 
 <head>
-
-        <!--4. meta elements -->
-
-       
+    <!--4. meta elements -->
     <meta charset="utf-8">
-
-       
     <meta name="author" content="BBIT">
-
-       
     <meta name="description"
         content="Your ultimate GTA 6 fan page featuring the latest news, trailers, gameplay details, map leaks, characters, release updates, and community discussions for Grand Theft Auto VI. Stay updated with everything GTA 6">
-
-       
     <meta name="keywords"
         content="GTA 6, Grand Theft Auto VI, GTA VI, GTA 6 news, GTA 6 trailer, GTA 6 gameplay, GTA 6 release date, Rockstar Games, Vice City, GTA 6 map, GTA 6 characters, GTA 6 leaks, GTA 6 updates, GTA 6 fan page, Grand Theft Auto 6">
-
-        <!--5. title -->
-
-        <title>GTA VI</title>
-
-        <!-- other elements that go here-->
-
-        <!-- styles, scripts, favicon -->
-
-</head>
-
-<!-- 6. the body (content goes here)-->
-
-<body>
-
-    <!-- Add header semantic tag -->
-
-    <!-- Add main heading -->
-
-    <!-- Make "Rockstar Games" bold -->
-
-     
-    <header>
-        <h1>Grand Theft Auto VI</h1>
-        <p>The next generation open-world crime game by <b>Rockstar Games</b>.
-
-        </p>
-
-    </header>
-
-     
-
-     
-
-     
-
-     
-
-    <!-- Add navigation semantic tag -->
-
-    <!-- Convert items into an unordered list -->
-
-    <!-- Wrap each item in a link -->
-
-    <!-- Add id links pointing to sections -->
-
-     
-
-    <nav>
-        <!-- unordered list -->
-         <ul>
-            <li>
-                <a href="#about"> About GTA 6</a>
-            </li>
-            <li>
-                <a href="#features">Features</a>
-            </li>
-            <li>
-                <a href="#characters">Characters</a>
-            </li>
-            <li> 
-                <a href="https://www.rockstargames.com/games/V"targert="Blank">
-                    Official page
-                </a>
+    <!-- important for RWD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--5. title -->
+    <title>GTA VI complete</title>
+    <!-- other elements that go here-->
+    <!-- styles, scripts, favicon -->
+    <!-- fonts (Instrument Sans-bodytext + Young Serif-title)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Young+Serif&display=swap%22
+        rel="stylesheet">
+ 
+    <link rel="stylesheet" href="css/style.css">
+ 
+    <link rel="shortcut icon" href="https://www.rockstargames.com/VI/favicon.ico">
+ 
+    <!-- embedded styles -->
+    <style>
+ 
+    </style>
+ 
     
-            </li>
-         </ul>
-    </nav>
-     
-
-
-
-
-     
-
-     
-
-     
-
-    <!-- Add main semantic tag -->
+</head>
+<!-- 6. the body (content goes here)-->
+ 
+<body>
+    <header>
+        <!-- an inline style -->
+        <h1 id="mainHeading" class="headings" name="title">Grand Theft Auto VI</h1>
+        The next generation open-world crime game by <b>Rockstar Games</b>.
+ 
+        <!-- Add navigation semantic tag -->
+ 
+        <!-- Convert items into an unordered list -->
+ 
+        <!-- Wrap each item in a link (hyperlinks) -->
+ 
+        <!-- Add id links pointing to sections -->
+ 
+        <nav> <!-- semantic tag-->
+ 
+            <ul> <!-- an unordered list -->
+ 
+                <li>
+ 
+                    <!-- a link to a different page-->
+ 
+                    <a href="#about">About GTA 6 </a>
+ 
+                </li> <!-- a list item -->
+ 
+                <li>
+ 
+                    <!-- a link to another section of the current page-->
+ 
+                    <a href="#features">Features</a>
+ 
+                </li> <!-- a list item -->
+ 
+                <li>
+ 
+                    <!-- a link to another section of the current page-->
+ 
+                    <a href="#characters">Characters</a>
+ 
+                </li> <!-- a list item -->
+ 
+                <li>
+ 
+                    <!-- a link to a different website-->
+ 
+                    <a href="https://www.rockstargames.com/VI" target="_blank">
+ 
+                        Official Page
+ 
+                    </a>
+ 
+                </li> <!-- a list item -->
+ 
+            </ul>
+ 
+        </nav>
+ 
+    </header>
+ 
+    <!-- Add main semantic tag nav,aside, article, section-->
     <main>
+        <!-- Add section with id="about" -->
+        <!-- Add section heading -->
+        <!-- Add paragraphs -->
+        <!-- Make "GTA 6" bold -->
+        <!-- Make "Vice City" italic -->
         <section id="about" name="about">
             <h2>About the Game</h2>
-            <p>
-                <b>GTA 6</b> is expected to take players back to 
-                <i>Vice city</i> with a massive open world,
-                new characters,
-                and improved gameplay 
-                mechanics.
-        
+            <p> <b>GTA 6</b> is expected to take players back to
+                <i>Vice City</i> with a massive open world, new characters, and improved
+                gameplay mechanics.
             </p>
-
         </section>
+ 
+ 
+        <!-- Add section with id="features" -->
+        <!-- Add subsection headings -->
+        <!-- Convert first group into unordered list -->
+        <!-- Convert second group into ordered list -->
         <section id="features">
-            <h2> expected features</h2>
-
-            <h4>Gameplay Features</h4>
+            <h2>Expected Features</h2>
+ 
+            <h5>Gameplay Features</h5>
             <ul>
-                <li> Open world exploration</li>
+                <li>Open world exploration</li> <!-- list item -->
                 <li>Dynamic weather system</li>
                 <li>Multiple playable characters</li>
                 <li>Improved AI</li>
-
-            </ul>
-            <h4>New Improvements</h4>
+            </ul> <!-- unordered list (ul) bullets (. . .)-->
+ 
+            <h5>New Improvements</h5>
             <ol>
-                <li> Better graphics</li>
+                <li>Better graphics</li>
                 <li>Larger map</li>
-                <li> Realistic NPC behavior</li>
+                <li>Realistic NPC behavior</li>
                 <li>Enhanced vehicles</li>
-            </ol>
-
-        </section id="characters">
-        <h2>main characters</h2>
-        <article>
-            <h5>Lucia</h5>
-            <p>
-                 Lucia is one of the <b>first female protagonists</b> in GTA history.
-                  She is known for her bold personality and criminal background.
-           </p>
-        </article>
-        <article>
-            <h5> Jason </h5>
-            <p>
-Jason partners with Lucia in a story inspired by <i> Bonnie and Clyde</i> -style adventures
-
-            </p>
-        </article>
-
-    <section id="logo">
-        <h2>Game preview</h2>
-        <img src= "https://www.rockstargames.com/VI/_next/image?url=%2FVI%2F_next%2Fstatic%2Fmedia%2FJason_and_Lucia_01_With_Logos_landscape.8596f77a.jpg&w=3840&q=75" 
-        alt="GTA logo image" width="50%">
-
-
+            </ol> <!-- ordered list (ol) 1,2,3.. -->
         </section>
-
+ 
+        <!-- Add section with id="characters" -->
+        <!-- Use article tag for each character -->
+        <!-- Add headings for names -->
+        <!-- Add paragraphs -->
+        <!-- Make "first female protagonists" bold -->
+        <!-- Make "Bonnie and Clyde" italic -->
+        <section id="characters">
+            <h2>Main Characters</h2>
+            <div class="characters-grid">
+                <article>
+                    <h4>Lucia</h4>
+                    <p>Lucia is one of the first female protagonists in GTA history. She is known for her bold
+                        personality
+                        and criminal
+                        background.</p>
+                </article>
+ 
+                <article>
+                    <h4>Jason</h4>
+                    <p>Jason partners with Lucia in a story inspired by Bonnie and Clyde-style adventures.
+                    </p>
+                </article>
+            </div>
+ 
+ 
+        </section>
+ 
+        <!-- Add section for image -->
+        <!-- Add image tag below -->
+        <!-- Use src attribute -->
+        <!-- Use alt attribute -->
+        <!-- Use width attribute -->
+        <section id="logo">
+            <h2>Game Preview</h2>
+            <img src="https://www.rockstargames.com/VI/_next/image?url=%2FVI%2F_next%2Fstatic%2Fmedia%2FJason_and_Lucia_01_With_Logos_landscape.8596f77a.jpg&w=3840&q=75%22
+                alt="GTA 6 Logo image">
+        </section>
+ 
+        <section id="interactive-lab">
+            <h2>JavaScript DOM and Events Lab</h2>
+            <p>This section has been added so that you can practise DOM selection, manipulation, dynamic element creation, and event handling.</p>
+ 
+            <div class="lab-grid">
+                <article class="lab-card">
+                    <h4>Activity 1: Change Text and Styles</h4>
+                    <p id="demoText">Click the button to modify this text using JavaScript.</p>
+                    <button id="changeTextBtn" type="button">Change Text</button>
+                    <button id="highlightSectionsBtn" type="button">Highlight Sections</button>
+                    <button id="resetBtn" type="button">Reset Page</button>
+                </article>
+ 
+                <article class="lab-card">
+                    <h4>Activity 2: Input Event</h4>
+                    <label for="nameInput">Enter your name:</label>
+                    <input type="text" id="nameInput" placeholder="Type your name">
+                    <p id="nameOutput">Your greeting will appear here.</p>
+                </article>
+ 
+                <article class="lab-card">
+                    <h4>Activity 3: Character Counter</h4>
+                    <label for="commentInput">Write a short GTA VI comment:</label>
+                    <textarea id="commentInput" rows="5" placeholder="Example: I am excited about Vice City..."></textarea>
+                    <p id="charCount">Characters: 0</p>
+                </article>
+ 
+                <article class="lab-card">
+                    <h4>Activity 4: Keyboard Event</h4>
+                    <p>Press any key on your keyboard.</p>
+                    <p id="keyOutput">You pressed: none</p>
+                </article>
+            </div>
+        </section>
+ 
+        <section id="dynamic-list-lab">
+            <h2>Dynamic DOM Creation: GTA VI Wishlist</h2>
+            <p>Add items you would like to see in GTA VI. Each new item is created with JavaScript.</p>
+ 
+            <form id="wishlistForm">
+                <label for="wishlistInput">Wishlist item:</label>
+                <div class="form-row">
+                    <input type="text" id="wishlistInput" placeholder="Example: More realistic traffic">
+                    <button type="submit">Add Item</button>
+                </div>
+            </form>
+ 
+            <ul id="wishlistItems" class="dynamic-list">
+                <li>More detailed Vice City map <button type="button" class="delete-btn">Delete</button></li>
+            </ul>
+        </section>
+ 
+        <section id="form-lab">
+            <h2>Form Event: Fan Feedback</h2>
+            <p>This form uses <code>submit</code> and <code>event.preventDefault()</code> to stop the page from refreshing.</p>
+ 
+            <form id="feedbackForm">
+                <label for="fanName">Name:</label>
+                <input type="text" id="fanName" placeholder="Enter your name" required>
+ 
+                <label for="fanEmail">Email:</label>
+                <input type="email" id="fanEmail" placeholder="Enter your email" required>
+ 
+                <label for="fanMessage">Feedback:</label>
+                <textarea id="fanMessage" rows="5" placeholder="Write your feedback" required></textarea>
+ 
+                <button type="submit">Submit Feedback</button>
+            </form>
+ 
+            <div id="feedbackOutput" class="output-box">
+                Submitted feedback will appear here.
+            </div>
+        </section>
+ 
+ 
+ 
+        <!-- Close main semantic tag -->
     </main>
-     
-
-     
-
-     
-
-  
-
-     
-
-   
-     
-
-   
-
-     
-
-     
-
-     
-
-    <!-- Add section with id="features" -->
-
-    <!-- Add subsection headings -->
-
-    <!-- Convert first group into unordered list -->
-
-    <!-- Convert second group into ordered list -->
-
-     
-
-   
-     
-
-     
-
-     
-
-    <!-- Add section with id="characters" -->
-
-    <!-- Use article tag for each character -->
-
-    <!-- Add headings for names -->
-
-    <!-- Add paragraphs -->
-
-    <!-- Make "first female protagonists" bold -->
-
-    <!-- Make "Bonnie and Clyde" italic -->
-
-     
-
-    Main Characters
-
-     
-
-    Lucia
-
-     
-
-    Lucia is one of the first female protagonists in GTA history. She is known for her bold personality and criminal
-    background.
-
-     
-
-     
-
-    Jason
-
-     
-
-    Jason partners with Lucia in a story inspired by Bonnie and Clyde-style adventures.
-
-     
-
-     
-
-     
-
-    <!-- Add section for image -->
-
-    <!-- Add image tag below -->
-
-    <!-- Use src attribute -->
-
-    <!-- Use alt attribute -->
-
-    <!-- Use width attribute -->
-
-     
-
-    Game Preview
-
-     
-
-    GTA 6 Logo image
-
-     
-
-     
-
-     
-
-    <!-- Close main semantic tag -->
-
-     
-
-     
-
-     
-
-    <!-- Add footer semantic tag -->
+ 
     <footer>
+        <!-- Add footer semantic tag -->
+        <!-- Wrap content in paragraph -->
+        <!-- Add horizontal rule above footer -->
         <hr>
-        <p>
-           © 2026 GTA 6 Fan Page | Created for HTML Learning 
-
-        </p>
+        <p> © 2026 GTA 6 Fan Page | Created for HTML Learning</p>
     </footer>
-
-    <!-- Wrap content in paragraph -->
-
-    <!-- Add horizontal rule above footer -->
-
-     
-
-    © 2026 GTA 6 Fan Page | Created for HTML Learning
-
+    <!--1. linking js to html (external js file)-->
+    <script src="js/script.js" type="text/javascript" ></script>
+    <!--2. Embedded JS -->
+    <script>
+        console.log('Hello! from an embedded JS code ');
+    </script>
 </body>
-
+ 
 </html>
